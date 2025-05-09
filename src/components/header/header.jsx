@@ -3,6 +3,12 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header style={styles.header}>
+      <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'center', gap: '1rem' }}>
+        <img
+          src="/ndm-logo.png"
+          alt="Logo"
+        />
+      </div>
       <nav style={styles.nav}>
         <Link href="/" style={styles.link}>
           Home
@@ -29,14 +35,15 @@ const Header = () => {
 
 const styles = {
   header: {
-    backgroundColor: '#333',
+    backgroundColor: '#7F1416',
     padding: '1rem',
     color: '#fff',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   nav: {
     display: 'flex',
-    justifyContent: 'right',
-    alignItems: 'center',
     gap: '2rem',
   },
   link: {
