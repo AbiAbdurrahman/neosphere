@@ -20,7 +20,7 @@ const Achievements = () => (
                     <div className="col-md-6 pr-0  body small">Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry.</div>
                 </div>
-                <i class="arrow"></i>
+                <i className="arrow"></i>
             </div>
 
             <div className="point">
@@ -31,7 +31,7 @@ const Achievements = () => (
                     <div className="col-md-12 pr-0  body small">Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry.</div>
                 </div>
-                <i class="arrow"></i>
+                <i className="arrow"></i>
             </div>
 
             <div className="point">
@@ -42,8 +42,8 @@ const Achievements = () => (
                     <div className="col-md-12 pr-0  body small">Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry.</div>
                 </div>
-                <i class="arrow"></i>
-                <i class="arrow-clean"></i>
+                <i className="arrow"></i>
+                <i className="arrow-clean"></i>
             </div>
 
         </div>
