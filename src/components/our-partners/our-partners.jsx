@@ -1,6 +1,6 @@
 const OurPartners = () => {
   return(
-    <div className="flex flex-col gap-[32px] row-start-2 items-center w-screen">
+    <div className="flex flex-col gap-[32px] row-start-2 items-center w-screen bg-linear-to-br to-red-900">
       <div className="flex flex-col gap-[32px] p-6 sm:p-20 row-start-2 items-center text-center w-screen">
         <h1 className="text-4xl font-bold text-center">Our Partners</h1>
         <p className="text-2xl text-center flex-wrap">
